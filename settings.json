@@ -1,0 +1,136 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "git.enableSmartCommit": true,
+  "editor.detectIndentation": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/app/build/**": true,
+    "**/assets/styles/main.*": true
+  },
+  "extensions.ignoreRecommendations": true,
+  "window.zoomLevel": 0,
+  "git.confirmSync": false,
+  "eslint.nodePath": "./node_modules/.bin/eslint",
+  "editor.renderWhitespace": "boundary",
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "gitlens.keymap": "none",
+  "editor.tabSize": 2,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.historyExplorer.enabled": true,
+  "cSpell.language": "en-GB",
+  "cSpell.userWords": [
+    "Checkbox",
+    "Dialog",
+    "Formik",
+    "Stats",
+    "admin",
+    "bigint",
+    "dataloader",
+    "don’t",
+    "dynamodb",
+    "homeschool",
+    "incentivize",
+    "influitive",
+    "leaderboard",
+    "parsable",
+    "placeholder",
+    "practiced",
+    "prototypal",
+    "scroller",
+    "seafoam",
+    "upsert",
+    "usertype",
+    "you’d"
+  ],
+  "terminal.integrated.rendererType": "dom",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.autoSave": "off",
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "go",
+    "graphql",
+    "handlebars",
+    "html",
+    "jade",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "pub",
+    "python",
+    "restructuredtext",
+    "rust",
+    "scss",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "yml"
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.files.associations": {
+    "*.messages.js": "credits",
+    "messages.js": "credits",
+    "resolvers.js": "vscode",
+    "resolver.js": "vscode",
+    "*.ejs.t": "ejs"
+  },
+  "search.exclude": {
+    "**/dist": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.views.repositories.location": "scm",
+  "gitlens.views.fileHistory.location": "explorer",
+  "gitlens.views.lineHistory.location": "explorer",
+  "gitlens.views.compare.location": "gitlens",
+  "gitlens.views.search.location": "gitlens",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.mode.statusBar.enabled": false,
+  "gitlens.views.repositories.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.hovers.annotations.enabled": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveshare.featureSet": "insiders",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autoStash": true,
+  "git.openDiffOnClick": false,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontFamily": "Meslo LG L for Powerline",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

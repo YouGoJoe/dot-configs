@@ -1,0 +1,22 @@
+[user]
+	name = Joe Staller
+	email = joestaller23@gmail.com
+[core]
+	editor = code --wait
+[alias]
+	new = checkout -b
+	chekcout = checkout
+	last = log -1 HEAD
+	cleanup = remote prune origin
+	clear = "!git branch --merged | grep -v '\\*\\|master|dev' | xargs git branch -d"
+	home = "!git checkout develop && git pull && git cleanup && git clear && clear"
+	bd = branch -d
+	undo = reset HEAD~
+	pushf = push --force-with-lease
+	pushn = "!git push --set-upstream origin \"$(git rev-parse --abbrev-ref HEAD)\""
+	fix = rebase -i develop
+  wip = "!git add --all; git commit -nm 'WIP'"
+  lg = log --graph --pretty=format:'%C(auto)%h%C(reset) -%C(auto)%d%C(reset) %s %C(green)(%cr) %C(bold blue)<%an>%C(reset)' --decorate --abbrev-commit -10
+	co = checkout
+[pager]
+	branch = false
